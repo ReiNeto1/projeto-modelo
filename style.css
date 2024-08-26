@@ -6,6 +6,10 @@ body {
     padding: 0;
 }
 
+.logo:hover{
+    transform: scale(1.1);
+}
+
 .header {
     background-color: #ff5a5f;
     color: #fff;
