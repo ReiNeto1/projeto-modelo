@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel - Bem-vindo</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header class="header">
         <div class="logo">
-            <h1>Hotel <i class="fa-solid fa-hotel"></i>     </h1>
+            <h1>Hotel <i class="fas fa-hotel"></i></h1>
         </div>
         <nav class="nav">
-            <a href="/login/login.html">Login <i class="fa-solid fa-right-to-bracket"></i></a>
-            <a href="cadastro/cadatro.html">Cadastre-se <i class="fa-solid fa-user"></i></a>
+            <a href="/login/login.html">Login <i class="fas fa-sign-in-alt"></i></a>
+            <a href="/cadastro/cadatro.html">Cadastre-se <i class="fas fa-user"></i></a>
         </nav>
     </header>
     
@@ -21,7 +22,8 @@
         <section class="hero">
             <h2>Encontre a sua próxima aventura</h2>
             <p>Descubra lugares incríveis para se hospedar e experiências únicas ao redor do mundo.</p>
-            <a href="#" class="btn-primary">Mais <i class="fa-solid fa-plus"></i></a>
+            <a href="#" id="toggleButton" class="btn-primary">Mais <i class="fas fa-plus"></i></a>
+            <p id="toggleText" style="display:none;">Aqui você pode encontrar os melhores hotéis, chalés e casas de estadia. Faça sua reserva hoje e viva experiências inesquecíveis!</p>
         </section>
 
         <!-- Seção para os Cards -->
@@ -55,5 +57,7 @@
     <footer class="footer">
         <p>&copy; 2024 Reinaldo Fernandes. Todos os direitos reservados.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
